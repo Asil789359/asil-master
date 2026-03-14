@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "git": {
+    "deploymentEnabled": true
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install --legacy-peer-deps"
+}
