@@ -19,7 +19,7 @@ import bohincVisual1 from "./assets/img/works/bohinc/visual1.jpg"
 import Yeng from "./components/projects/Yeng"
 import YengCover from "./assets/img/works/covers/yeng.jpg"
 import YengCoverSmall from "./assets/img/works/covers-small/yeng-min.jpg"
-import YengVisual1 from "./assets/img/works/Yeng/visual1.jpg"
+import YengVisual1 from "./assets/img/works/yeng/visual1.jpg"
 
 import Hublot from "./components/projects/Hublot"
 import hublotCover from "./assets/img/works/covers/hublot.jpg"
