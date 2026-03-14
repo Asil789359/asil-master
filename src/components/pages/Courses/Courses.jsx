@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { marginPage } from "../../../styles/globalCustom";
 import logo from "./../../../assets/img/courses/logo.svg";
 import Item from "./Course";
-import { getCalApi } from "@calcom/embed-react";
+// import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 
 // courses img assets
@@ -130,16 +130,16 @@ const StyledCourses = styled.div`
 `;
 
 function Courses() {
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi();
-      cal("ui", {
-        styles: { branding: { brandColor: "#AFB6CE" } },
-        hideEventTypeDetails: false,
-        layout: "month_view",
-      });
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async function () {
+  //     const cal = await getCalApi();
+  //     cal("ui", {
+  //       styles: { branding: { brandColor: "#AFB6CE" } },
+  //       hideEventTypeDetails: false,
+  //       layout: "month_view",
+  //     });
+  //   })();
+  // }, []);
   return (
     <PageTemplate hasTransitionPanel={true}>
       <StyledCourses>
